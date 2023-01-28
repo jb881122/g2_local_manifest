@@ -7,6 +7,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/interfaces" name="jb881122/android_hardware_lineage_interfaces" revision="lineage-19.0-testing" />
 
   <!-- Common to all G2s -->
   <project path="kernel/lge/msm8974" name="jb881122/android_kernel_lge_msm8974" revision="lineage-19.0-testing" />
