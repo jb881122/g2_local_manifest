@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Fixes in other places -->
+  <remove-project name="LineageOS/android_build_soong" />
+  <project path="build/soong" name="html6405/android_build_soong" revision="lineage-19.0">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- Common to all G2s -->
   <project path="kernel/lge/msm8974" name="jb881122/android_kernel_lge_msm8974" revision="lineage-19.0-testing" />
   <project path="device/lge/g2-common" name="jb881122/android_device_lge_g2-common" revision="lineage-19.0-testing" />
