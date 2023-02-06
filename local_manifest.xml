@@ -11,6 +11,8 @@
   <project path="hardware/lineage/interfaces" name="jb881122/android_hardware_lineage_interfaces" revision="lineage-19.0-testing" />
   <remove-project name="platform/system/bpf" />
   <project path="system/bpf" name="LineageOS-UL/android_system_bpf" revision="lineage-19.1" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="LineageOS-UL/android_system_netd" revision="lineage-19.1" />
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" revision="lineage-19.0">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
