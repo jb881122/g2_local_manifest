@@ -13,6 +13,8 @@
   <project path="system/bpf" name="LineageOS-UL/android_system_bpf" revision="lineage-19.1" />
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="LineageOS-UL/android_system_netd" revision="lineage-19.1" />
+  <remove-project name="platform/art" />
+  <project path="art" name="LineageOS-UL/android_art" revision="lineage-19.1" />
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" revision="lineage-19.0">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
