@@ -3,49 +3,17 @@
 
   <!-- Fixes in other places -->
   <remove-project name="LineageOS/android_build_soong" />
-  <project path="build/soong" name="html6405/android_build_soong" revision="lineage-19.0">
+  <project path="build/soong" name="jb881122/android_build_soong" revision="lineage-19.1-testing">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
-  <project path="hardware/lineage/interfaces" name="jb881122/android_hardware_lineage_interfaces" revision="lineage-19.0-testing" />
-  <remove-project name="platform/system/bpf" />
-  <project path="system/bpf" name="LineageOS-UL/android_system_bpf" revision="lineage-19.1" />
-  <remove-project name="platform/system/netd" />
-  <project path="system/netd" name="LineageOS-UL/android_system_netd" revision="lineage-19.1" />
-  <remove-project name="platform/art" />
-  <project path="art" name="LineageOS-UL/android_art" revision="lineage-19.1" />
-  <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="jb881122/android_frameworks_native" revision="lineage-19.0-testing" />
-  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" revision="lineage-19.0">
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
-  </project>
+  <remove-project name="LineageOS-UL/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/interfaces" name="jb881122/android_hardware_lineage_interfaces" revision="lineage-19.1-testing" />
 
   <!-- Common to all G2s -->
-  <project path="kernel/lge/msm8974" name="jb881122/android_kernel_lge_msm8974" revision="lineage-19.0-testing" />
-  <project path="device/lge/g2-common" name="jb881122/android_device_lge_g2-common" revision="lineage-19.0-testing" />
+  <project path="kernel/lge/msm8974" name="jb881122/android_kernel_lge_msm8974" revision="lineage-19.1-testing" />
+  <project path="device/lge/g2-common" name="jb881122/android_device_lge_g2-common" revision="lineage-19.1-testing" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" revision="lineage-18.1" />
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-18.1" />
-  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" revision="lineage-18.1" />
-  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" revision="lineage-18.1" />
-  <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/display" name="Khalvat-M/android_hardware_qcom_display" revision="lineage-19.1-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/media" name="LineageOS/android_hardware_qcom_media" revision="lineage-18.1-caf-msm8974" />
 
   <!-- D800 -->
   <project path="device/lge/d800" name="LineageOS/android_device_lge_d800" revision="lineage-18.1" />
