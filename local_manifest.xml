@@ -16,6 +16,7 @@
   <project path="kernel/lge/msm8974" name="jb881122/android_kernel_lge_msm8974" revision="lineage-19.1-testing" />
   <project path="device/lge/g2-common" name="jb881122/android_device_lge_g2-common" revision="lineage-19.1-testing" />
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-18.1" />
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" revision="lineage-19.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" revision="lineage-18.1" />
 
   <!-- D800 -->
