@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Fixes in other places -->
-  <remove-project name="LineageOS/android_build_soong" />
+  <remove-project name="LineageOS-UL/android_build_soong" />
   <project path="build/soong" name="jb881122/android_build_soong" revision="lineage-20.0">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
