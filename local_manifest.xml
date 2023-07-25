@@ -10,7 +10,7 @@
   <remove-project name="LineageOS-UL/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/interfaces" name="jb881122/android_hardware_lineage_interfaces" revision="lineage-20.0" />
   <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
-  <project path="system/bt" name="jb881122/android_packages_modules_Bluetooth" revision="lineage-20.0" />
+  <project path="packages/modules/Bluetooth" name="jb881122/android_packages_modules_Bluetooth" revision="lineage-20.0" />
 
   <!-- Common to all G2s -->
   <project path="kernel/lge/msm8974" name="jb881122/android_kernel_lge_msm8974" revision="lineage-20.0" />
