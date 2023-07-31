@@ -34,6 +34,6 @@
   <project path="device/lge/ls980" name="LineageOS/android_device_lge_ls980" revision="lineage-18.1" />
 
   <!-- VS980 -->
-  <project path="device/lge/vs980" name="LineageOS/android_device_lge_vs980" revision="lineage-18.1" />
+  <project path="device/lge/vs980" name="jb881122/android_device_lge_vs980" revision="lineage-19.1" />
 
 </manifest>
